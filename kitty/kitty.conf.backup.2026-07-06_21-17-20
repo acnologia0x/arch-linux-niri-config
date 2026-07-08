@@ -1,0 +1,17 @@
+# Font Setup
+font_family      JetBrainsMono Nerd Font
+font_size        11.0
+
+# Transparency & Blur
+background_opacity 0.92
+dynamic_background_opacity no
+
+# Aesthetics
+window_padding_width 15
+hide_window_decorations yes
+
+
+# BEGIN_KITTY_THEME
+# Tokyo Night
+include current-theme.conf
+# END_KITTY_THEME

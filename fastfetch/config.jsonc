@@ -16,23 +16,23 @@
 			"keys": "#7dcfff"
 		}
 	},
-	// "modules": [
-	// 	{
-	// 		"type": "title",
-	// 		"color": {
-	// 			"at": "#ffffff",
-	// 			"host": "#7dcfff",
-	// 			"user": "#89b4fa"
-	// 		}
-	// 	},
-	// 	{ "type": "separator", "string": "─" },
-	// 	{ "type": "os", "key": "OS" },
-	// 	{ "type": "kernel", "key": "kernel" },
-	// 	{ "type": "shell", "key": "" },
-	// 	{ "type": "wm", "key": "" },
-	// 	{ "type": "terminal", "key": "" },
-	// 	{ "type": "packages", "key": "󰏓" },
-	// 	{ "type": "memory", "key": "󰍛" },
-	// 	"break",
-	// ]
+	"modules": [
+		{
+			"type": "title",
+			"color": {
+				"at": "#ffffff",
+				"host": "#7dcfff",
+				"user": "#89b4fa"
+			}
+		},
+		{ "type": "separator", "string": "─" },
+		{ "type": "os", "key": "OS" },
+		{ "type": "kernel", "key": "kernel" },
+		{ "type": "shell", "key": "" },
+		{ "type": "wm", "key": "" },
+		{ "type": "terminal", "key": "" },
+		{ "type": "packages", "key": "󰏓" },
+		{ "type": "memory", "key": "󰍛" },
+		"break",
+	]
 }
