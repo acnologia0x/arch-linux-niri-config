@@ -1,0 +1,38 @@
+binds {
+    Alt+F4 hotkey-overlay-title="Power Menu: Open" { spawn "dms" "ipc" "call" "powermenu" "open"; }
+    Super+E hotkey-overlay-title="App Launcher: Toggle" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    Super+N hotkey-overlay-title="Notepad: Toggle" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
+    Super+S hotkey-overlay-title="Notifications: Toggle" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
+    Super+Shift+space hotkey-overlay-title="Bar: Toggle (Primary)" { spawn "dms" "ipc" "call" "bar" "toggle" "index" "0"; }
+    Super+space hotkey-overlay-title="Dashboard: Toggle" { spawn "dms" "ipc" "call" "dash" "toggle" ""; }
+    XF86AudioLowerVolume hotkey-overlay-title="Volume Down (5%)" { spawn "dms" "ipc" "call" "audio" "decrement" "5"; }
+    XF86AudioRaiseVolume hotkey-overlay-title="Volume Up (5%)" { spawn "dms" "ipc" "call" "audio" "increment" "5"; }
+    Super+Down hotkey-overlay-title="Focus Workspace Down" { focus-workspace-down; }
+    Super+Shift+Down hotkey-overlay-title="Move to Workspace Down" { move-column-to-workspace-down; }
+    Super+Shift+Up hotkey-overlay-title="Move to Workspace Up" { move-column-to-workspace-up; }
+    Super+Up hotkey-overlay-title="Focus Workspace Up" { focus-workspace-up; }
+    Super+WheelScrollDown hotkey-overlay-title="Focus Workspace Down" { focus-workspace-down; }
+    Super+WheelScrollUp hotkey-overlay-title="Focus Workspace Up" { focus-workspace-up; }
+    F11 hotkey-overlay-title="Fullscreen" { fullscreen-window; }
+    Super+Ctrl+Left hotkey-overlay-title="Consume/Expel Left" { consume-or-expel-window-left; }
+    Super+Ctrl+Right hotkey-overlay-title="Consume/Expel Right" { consume-or-expel-window-right; }
+    Super+Ctrl+Shift+H hotkey-overlay-title="Reset Window Height" { reset-window-height; }
+    Super+F hotkey-overlay-title="Toggle Floating" { toggle-window-floating; }
+    Super+Left hotkey-overlay-title="Focus Left" { focus-column-left; }
+    Super+Q hotkey-overlay-title="Close Window" { close-window; }
+    Super+R hotkey-overlay-title="Switch Floating/Tiling Focus" { switch-focus-between-floating-and-tiling; }
+    Super+Right hotkey-overlay-title="Focus Right" { focus-column-right; }
+    Super+Shift+H hotkey-overlay-title="Cycle Window Height" { switch-preset-window-height; }
+    Super+Shift+Left hotkey-overlay-title="Move Left" { move-column-left; }
+    Super+Shift+Right hotkey-overlay-title="Move Right" { move-column-right; }
+    Super+Shift+W hotkey-overlay-title="Expand to Available Width" { expand-column-to-available-width; }
+    Super+W hotkey-overlay-title="Cycle Column Width" { switch-preset-column-width; }
+    Super+WheelScrollLeft hotkey-overlay-title="Focus Left" { focus-column-left; }
+    Super+WheelScrollRight hotkey-overlay-title="Focus Right" { focus-column-right; }
+    Super+Shift+S hotkey-overlay-title="Screenshot (Interactive)" { screenshot; }
+    Alt+Shift+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Super+B { spawn "helium-browser"; }
+    Super+Return { spawn "pavucontrol"; }
+    Super+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Super+Tab hotkey-overlay-title="Toggle Overview" { toggle-overview; }
+}
