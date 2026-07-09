@@ -1,5 +1,7 @@
 binds {
     Alt+F4 hotkey-overlay-title="Power Menu: Open" { spawn "dms" "ipc" "call" "powermenu" "open"; }
+    Super+BracketLeft hotkey-overlay-title="Wallpaper: Previous" { spawn "dms" "ipc" "call" "wallpaper" "prev"; }
+    Super+BracketRight hotkey-overlay-title="Wallpaper: Next" { spawn "dms" "ipc" "call" "wallpaper" "next"; }
     Super+E hotkey-overlay-title="App Launcher: Toggle" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Super+N hotkey-overlay-title="Notepad: Toggle" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
     Super+S hotkey-overlay-title="Notifications: Toggle" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
@@ -31,8 +33,8 @@ binds {
     Super+WheelScrollRight hotkey-overlay-title="Focus Right" { focus-column-right; }
     Super+Shift+S hotkey-overlay-title="Screenshot (Interactive)" { screenshot; }
     Alt+Shift+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Super+1 { spawn "spotify"; }
     Super+B { spawn "helium-browser"; }
-    Super+Return { spawn "pavucontrol"; }
     Super+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Super+Tab hotkey-overlay-title="Toggle Overview" { toggle-overview; }
 }
