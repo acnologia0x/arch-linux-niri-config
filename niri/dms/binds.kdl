@@ -5,7 +5,6 @@ binds {
     Super+E hotkey-overlay-title="App Launcher: Toggle" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Super+N hotkey-overlay-title="Notepad: Toggle" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
     Super+O hotkey-overlay-title="Control Center: Toggle" { spawn "dms" "ipc" "call" "control-center" "toggle"; }
-    Super+P hotkey-overlay-title="Task Manager: Toggle" { spawn "dms" "ipc" "call" "processlist" "toggle"; }
     Super+S hotkey-overlay-title="Notifications: Toggle" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
     Super+Shift+space hotkey-overlay-title="Bar: Toggle (Primary)" { spawn "dms" "ipc" "call" "bar" "toggle" "index" "0"; }
     Super+space hotkey-overlay-title="Dashboard: Toggle" { spawn "dms" "ipc" "call" "dash" "toggle" ""; }
@@ -37,6 +36,7 @@ binds {
     Alt+Shift+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Super+1 { spawn "spotify"; }
     Super+B { spawn "helium-browser"; }
+    Super+P { spawn "protonvpn-app"; }
     Super+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Super+Tab hotkey-overlay-title="Toggle Overview" { toggle-overview; }
 }

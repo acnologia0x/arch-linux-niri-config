@@ -165,7 +165,7 @@ layout {
         urgent-color   "#cc4444"      // Softer red
     }
     focus-ring{
-        width 1
+        width 2.5
     }
     shadow {
         softness 30
@@ -236,7 +236,7 @@ animations {
 // Work around WezTerm's initial configure bug
 // by setting an empty default-column-width.
 window-rule {
-    geometry-corner-radius 12
+    geometry-corner-radius 5.5
     clip-to-geometry true
     tiled-state true
     draw-border-with-background false
